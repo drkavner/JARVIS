@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "appServiceName": {
-            "value": ""
+            "value": "Jarvis-Divvy"
         },
         "existingAppServicePlanName": {
             "value": ""
@@ -12,10 +12,10 @@
             "value": ""
         },
         "newAppServicePlanName": {
-            "value": ""
+            "value": "Jarvis-Divvy"
         },
         "newAppServicePlanLocation": {
-            "value": ""
+            "value": "East US"
         },
         "newAppServicePlanSku": {
             "value": {
@@ -27,10 +27,19 @@
             }
         },
         "appId": {
-            "value": ""
+            "value": "2e2a92b8-e8fd-42ef-8ddb-ea51cadfb8c6"
         },
         "appSecret": {
             "value": ""
+        },
+        "UMSIName": {
+            "value": "Jarvis-DivvyBot"
+        },
+        "UMSIResourceGroupName": {
+            "value": "JarvisResourceGroup"
+        },
+        "tenantId": {
+            "value": "045b7d24-2664-418d-9988-73ec9a607ba3"
         }
     }
 }
