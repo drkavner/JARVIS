@@ -1,19 +1,19 @@
 openai: 
-  api_key: REPLACE_WITH_YOUR_OPENAI_API_KEY_HERE
+  api_key: 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
 # azure:
 #   api_key: REPLACE_WITH_YOUR_AZURE_API_KEY_HERE
 #   base_url: REPLACE_WITH_YOUR_ENDPOINT_HERE
 #   deployment_name: REPLACE_WITH_YOUR_DEPLOYMENT_NAME_HERE
 #   api_version: "2022-12-01"
 huggingface:
-  token: REPLACE_WITH_YOUR_HUGGINGFACE_TOKEN_HERE # required: huggingface token @ https://huggingface.co/settings/tokens
-dev: false
+  token: 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 # required: huggingface token @ https://huggingface.co/settings/tokens
+dev: true
 debug: false
 log_file: logs/debug.log
 model: text-davinci-003 # currently only support text-davinci-003, gpt-4, we will support more open-source LLMs in the future
 use_completion: true
 inference_mode: hybrid # local, huggingface or hybrid, prefer hybrid
-local_deployment: full # minimal, standard or full, prefer full
+local_deployment: minimal # minimal, standard or full, prefer full
 device: cuda:0 # cuda:id or cpu
 num_candidate_models: 5
 max_description_length: 100
